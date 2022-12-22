@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "opt": "node optimize.mjs",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
@@ -17,6 +18,8 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^7.0.0",
     "postcss-loader": "^7.0.1",
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2",
