@@ -1,7 +1,7 @@
 import './style.scss'
 import { Collapse, ScrollSpy } from 'bootstrap';
 
-window.addEventListener('load', () => setTimeout(init, 100));
+window.addEventListener('load', init);
 
 function init () {    
     document.body.classList.remove('overflow-hidden')                    
